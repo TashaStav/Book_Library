@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { useAppDispatch } from "../app/hooks";
 import { addFavorite } from "../features/favorites/favoritesSlice";
+import { memo } from "react";
 
-export function BookCard({ book }) {
+export const BookCard = memo(function BookCard({ book }) {
   const dispatch = useAppDispatch();
 
   return (
@@ -25,4 +26,4 @@ export function BookCard({ book }) {
       </button>
     </div>
   );
-}
+});
