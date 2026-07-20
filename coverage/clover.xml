@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1783262496696" clover="3.2.0">
+  <project timestamp="1783262496696" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="24" coveredconditionals="20" methods="20" coveredmethods="20" elements="97" coveredelements="93" complexity="0" loc="53" ncloc="53" packages="6" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="test-utils.jsx" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\test-utils.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="hooks.js" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\app\hooks.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="14" coveredstatements="14" conditionals="16" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <file name="BookCard.jsx" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\components\BookCard.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="BookList.jsx" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\components\BookList.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="Search.jsx" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\components\Search.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="7" count="28" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.favorites">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="favoritesSlice.js" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\features\favorites\favoritesSlice.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.search">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="searchSlice.js" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\features\search\searchSlice.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.hooks">
+      <metrics statements="23" coveredstatements="23" conditionals="5" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <file name="useDebounce.js" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\hooks\useDebounce.js">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="4" count="23" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="7" count="18" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="18" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+      </file>
+      <file name="useFetch.js" path="C:\Users\1\OneDrive\Рабочий стол\Otus\КУРС JS PROFESSIONAL\Book_Library\book-library\src\hooks\useFetch.js">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
