@@ -1,14 +1,11 @@
 import { useFetch } from "../hooks/useFetch";
 import { useDebounce } from "../hooks/useDebounce";
 import { BookCard } from "./BookCard";
+import { getBooksUrl } from "../utils/getBookUrl";
 
 export function BookList({ search }) {
   const debouncedSearch = useDebounce(search, 500);
-  const url =
-    debouncedSearch.length >= 3
-      ? `https://openlibrary.org/search.json?q=${debouncedSearch}`
-      : null;
-  const { data, loading, error } = useFetch(url);
+  const { data, loading, error } = useFetch(getBooksUrl(debouncedSearch));
   const books = data?.docs || [];
 
   return (
